@@ -1,0 +1,72 @@
+.. _2.2:
+
+Elenchi
+=======
+
+Elenchi puntati
+---------------
+
+Un blocco di testo che inizia con "*", "+", "-", "•" seguito da uno spazio bianco
+è un elemento dell'elenco puntato (noto anche come elemento dell'elenco "non ordinato"). 
+
+I corpi degli elementi dell'elenco devono essere allineati a sinistra e rientrati rispetto al punto elenco; 
+il testo immediatamente dopo il punto elenco determina il rientro. 
+
+Per esempio:
+
+- Questo è il primo elemento dell'elenco puntato. La riga vuota sopra il 
+  primo elemento dell'elenco è obbligatoria; le righe vuote tra gli elementi dell'elenco 
+  (come sotto questo paragrafo) sono facoltative. 
+
+- Questo è il primo paragrafo della seconda voce dell'elenco. 
+
+  Questo è il secondo paragrafo nel secondo elemento dell'elenco. 
+  La riga vuota sopra questo paragrafo è obbligatoria. Il bordo sinistro 
+  di questo paragrafo si allinea con il paragrafo precedente, entrambi 
+  rientrati rispetto al punto elenco. 
+
+  - Questa è una sottolista. Il punto è allineato con il bordo sinistro dei 
+    blocchi di testo sopra. Un sottoelenco è un nuovo elenco, quindi richiede una 
+    riga vuota sopra e sotto. 
+
+- Questo è il terzo elemento dell'elenco principale.
+
+Questo paragrafo non fa parte dell'elenco.
+
+
+Elenchi numerati
+----------------
+
+Gli elenchi enumerati (noti anche come elenchi "ordinati") sono simili agli elenchi puntati, 
+ma utilizzano enumeratori anziché elenchi puntati. 
+Un enumeratore è costituito da un membro della sequenza di enumerazione e da una formattazione, seguiti da spazi. 
+Vengono riconosciute le seguenti sequenze di enumerazione:
+
+numeri arabi: 1, 2, 3, ... (nessun limite superiore).
+caratteri dell'alfabeto maiuscoli: A, B, C, ..., Z.
+caratteri alfabetici minuscoli: a, b, c, ..., z.
+numeri romani maiuscoli: I, II, III, IV, ..., MMMMCMXCIX (4999).
+numeri romani minuscoli: i, ii, iii, iv, ..., mmmmcmxcix (4999).
+
+Inoltre, l'autoenumeratore, "#", può essere utilizzato per enumerare automaticamente un elenco. 
+Gli elenchi autoenumerati possono iniziare con un'enumerazione esplicita, che imposta la sequenza. 
+Gli elenchi completamente autoenumerati utilizzano numeri arabi e iniziano con 1. 
+
+
+Vengono riconosciuti i seguenti tipi di formattazione:
+
+suffisso con un punto: "1.", "A.", "a.", "I.", "i.".
+racchiuso tra parentesi: "(1)", "(A)", "(a)", "(I)", "(i)".
+suffisso con una parentesi destra: "1)", "A)", "a)", "I)", "i)".
+
+Esempi di elenchi enumerati annidati:
+
+1. Testo iniziale elemento 1. 
+
+   a) Voce 1a. 
+   b) Voce 1b. 
+
+2. Testo elemento 2
+
+   a) Voce 2a. 
+   b) Voce 2b.

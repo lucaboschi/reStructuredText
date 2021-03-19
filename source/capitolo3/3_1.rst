@@ -1,0 +1,123 @@
+.. _3.1:
+
+Elementi ornamentali
+====================
+
+Note
+----
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit [#f1]_ anim id est laborum.
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+
+Testo che contiene una nota: Lorem ipsum [#f2]_ dolor sit amet.
+
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+Marcatore
+---------
+
+``Testo marcato`` contenuto in un riquadro
+
+
+
+
+Citazioni
+---------
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
+Ora una citazione: [Ref]_ testo con citazione
+
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, *sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+Testi enfatizzati
+-----------------
+
+Testo enfatizzato: WARNING
+
+.. warning:: 
+   
+   !!! Attenzione !!!
+   
+
+.. note:: 
+
+   Testo della nota
+   
+.. tip:: 
+
+   **Definizione di punto**
+   
+   Il punto è ciò che non ha parti
+
+
+.. hint:: 
+
+   Suggerimento. 
+   
+   Posso inserire anche elenchi:
+   
+   - primo punto
+
+   - secondo punto
+	
+   - terzo punto
+   
+		
+Testo enfatizzato: ADMONITION
+
+.. admonition:: Remember
+
+   Ricordati di spegnere la luce
+
+
+
+Commenti
+--------
+
+Ogni markup non valido viene visto come un commento. Si suggerisce di utilizzare due punti. 
+Il commento non viene mostrato.
+
+.. questo è un commento
+
+Ho scritto nella precedente riga un commento e non si vede nella pagina HTML.
+
+
+
+
+--------
+
+
+
+.. rubric:: Footnotes
+
+.. [#f1] Text of the first footnote.
+.. [#f2] Text of the second footnote.
+
+
+
+--------
+
+
+.. [Ref] Rimando della citazione.

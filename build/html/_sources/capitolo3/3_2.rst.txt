@@ -1,0 +1,82 @@
+.. _3.2:
+
+Elementi multimediali
+=====================
+
+Immagini
+--------
+
+Possono inserire immagini utilizzando "image" o "figure". Una figura è un'immagine in cui posso aggiungere una didascalia.
+Si consiglia di salvare tutte le immagini in una cartella.
+Se inserisco dei riferimenti alle immagini numerandole ed anteponendo il simbolo "_", riesco ad avere nel documento dei link verso le immagini.
+
+Il testo che segue è un lorem impsum che contiene del testo casuale per aggiungere spazio prima delle immagini. 
+Al suo interno inserirò dei riferimenti alle tre immagini.
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in (:numref:`3.2.1`) reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+**Lorem ipsum** dolor sit amet, (:numref:`3.2.2`)consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint (:numref:`3.2.3`) occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+
+.. _3.2.1:
+.. figure:: /immagini/3/3.2.1.png
+   :alt: Dispositivi di rete
+   :align: center
+   :scale: 50 %
+
+   -- Dispositivo di rete
+   
+
+.. _3.2.2:
+.. figure:: /immagini/3/3.2.2.png
+   :alt: Firewall
+   :align: center
+   :scale: 30 %   
+
+   -- Firewall. Source: https://it.wikipedia.org/wiki/Dispositivo_di_rete
+   
+.. _3.2.3:
+.. figure:: /immagini/3/3.2.3.png
+   :alt: Giove
+   :align: center
+   :scale: 30 %   
+   
+   -- Giove 
+
+
+Video
+-----
+
+Inseriamo un video da Youtube.
+
+Procedimento:
+
+1. Vado su Youtube, scelgo il video
+
+2. Apro **share** e seleziono la voce *embed*
+
+3. Preparo la sezione raw html
+
+4. Incollo il testo che contiene l'iframe
+
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/C9A73VNwgBM?start=105" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 

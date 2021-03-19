@@ -1,0 +1,47 @@
+.. _1.1:
+
+Panoramica di base
+==================
+
+**reStructuredText** è un linguaggio di markup caratterizzato da un'elevata leggibilità 
+a livello di codice sorgente. 
+Il parser alla base di reStructuredText è una componente del framework Docutils, 
+scritto nel linguaggio di programmazione Python e progettato per la gestione del testo.
+
+reStructuredText è spesso abbreviato in RST, reST o ReST.
+I file che si ottengono hanno estensione .rst
+
+
+Spazi bianchi
+-------------
+
+Gli spazi contenuti nel testo vengono utilizzati per separare le varie stringhe.
+Il numero di spazi bianchi non conta. Considera le due parole: casa          mare.
+Le ho scritte lasciando 10 spazi bianchi tra di loro, ma questi sono stati renderizzati in uno soltanto.
+Gli spazi bianchi vengono utilizzati, come in Python, per indentare il testo e riuscire a stabilire dei livelli gerarchici.
+Altra cosa: mentre stai scrivendo, se dai invio una volta soltanto, non definisci un nuovo livello e questo
+non viene preso in considerazione nella formattazione. Adesso scriverà 5 numeri, uno per riga, e li vedremo di seguito,
+separati da spazi:
+1
+2
+3
+4
+5
+
+Dopo il numero 5 ho cliccato **INVIO** due volte ed allora il testo è andato a capo.
+Vediamo ora come utilizzare gli spazi bianchi per i rientri.
+
+Paragrafo 1 (di primo livello)
+
+   Primo sottoparagrafo (quindi di secondo livello) del paragrafo 1
+   Secondo sottoparagrafo (quindi di secondo livello) del paragrafo 1
+     
+Paragrafo 2 (di primo livello)
+
+   Primo sottoparagrafo (quindi di secondo livello) del paragrafo 2
+   Secondo sottoparagrafo (quindi di secondo livello) del paragrafo 2
+
+
+Struttura di un documento
+-------------------------
+

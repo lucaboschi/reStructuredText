@@ -1,0 +1,34 @@
+.. _3.4:
+
+Programmazione
+==============
+
+Riconosce porzioni di codice utilizzando la direttiva "::"
+
+
+Java
+----
+
+Dichiarazione di una classe Java::
+
+	class Studente
+	{
+		String nome;
+		String cognome;
+		
+		public Studente(String nome, String cognome)
+		{
+			this.nome = nome;
+			this.cognome = cognome;
+		}
+	}
+
+
+Python
+------
+
+Esempio di script in Python::
+
+	fruits = ["apple", "banana", "cherry"]
+	for x in fruits:
+	  print(x)

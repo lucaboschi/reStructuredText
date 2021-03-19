@@ -1,0 +1,13 @@
+.. _3.3:
+
+Matematica
+==========
+
+Formula scritta in linea  :math:`a^2 + b^2 = c^2` . Continuo a scrivere.
+
+
+.. math:: e^{i\pi} + 1 = 0
+
+.. math:: 	\overbrace{ 1+2+\cdots+100 }^{5050}
+
+.. math:: 	\iiint_{E}^{V} \, dx\,dy\,dz

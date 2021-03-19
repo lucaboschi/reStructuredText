@@ -1,0 +1,59 @@
+.. _1.2:
+
+Struttura di un documento
+=========================
+
+Analizziamo ora la struttura di base di un documento realizzato con *reStructuredText*.
+Ci sono tre elementi fondamentali:
+
+- documento
+
+- sezione
+
+- transizione
+
+
+Documento
+---------
+
+L'elemento di primo livello di un documento reStructuredText analizzato è l'elemento "document".
+
+
+
+
+Sezione
+-------
+
+Le sezioni sono identificate attraverso i loro titoli che vengono marcati in utilizzando delle sottolineature.
+
+I caratteri che si consiglia di utilizzare per sottolineare i titoli sono:
+
+1.  \=   --> il testo sottolineato con il simbolo "=" diventa una sezione principale
+2.  \-   --> il testo sottolineato con il simbolo "-" diventa una sezione secondaria
+
+Il numero di caratteri della sottolineatura deve essere uguale al numero di caratteri del titolo che si sta sottolineando:
+
+-  la parola "casa" deve essere sottolineata con 4 caratteri (==== oppure ----)
+
+-  la parola "Marconi" deve essere sottolineata con 7 caratteri (======= o -------)
+
+
+Transizione
+-----------
+
+Le transizioni sono comunemente viste nei romanzi e nei racconti brevi 
+come uno spazio vuoto su una o più righe. 
+Le transizioni separano altri elementi del corpo. 
+Non ci possoon essere due transizioni immediatamente adiacenti.
+
+La sintassi per un indicatore di transizione è una linea orizzontale di 4 o più caratteri di punteggiatura ripetuti. 
+La sintassi è la stessa delle sottolineature del titolo della sezione senza il testo del titolo. 
+Gli indicatori di transizione richiedono righe vuote prima e dopo:
+
+Testo prima della tranzione
+
+---------- 
+
+Testo dopo della tranzione
+
+Nel rendering HTML viene si solito tradotta con il tag <hr>, linea orizzontale.

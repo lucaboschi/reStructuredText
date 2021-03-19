@@ -1,0 +1,9 @@
+.. _2.1:
+
+Paragrafo
+=========
+
+I paragrafi sono costituiti da blocchi di testo allineato a sinistra senza markup 
+che indichi qualsiasi altro elemento del corpo. 
+
+Le righe vuote separano i paragrafi l'uno dall'altro e dagli altri elementi del corpo. 
