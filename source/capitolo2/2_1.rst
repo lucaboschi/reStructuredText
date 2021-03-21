@@ -18,10 +18,10 @@ Elementi
 All'interno di un paragrafo possiamo trovare del testo formattato in diversi modi:
 
 
-*corsivo* : è il testo contenuto tra due asterischi
+*corsivo* : testo contenuto tra due asterischi
 
-**grassetto**  :è il testo contenuto tra due doppi asterischi
+**grassetto**  : testo contenuto tra due doppi asterischi
 
-`interpreted text`
+`testo interpretato` : testo contenuto tra due `
 
-``inline literals``
+``letterale in linea`` : testo contenuto tra due doppi `
