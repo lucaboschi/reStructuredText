@@ -3,11 +3,26 @@
 Matematica
 ==========
 
-Formula scritta in linea  :math:`a^2 + b^2 = c^2` . Continuo a scrivere.
+Formula scritta in linea  :math:`a^2 + b^2 = c^2` . 
 
+
+Di seguito altri esempi di formule:
 
 .. math:: e^{i\pi} + 1 = 0
 
 .. math:: 	\overbrace{ 1+2+\cdots+100 }^{5050}
 
 .. math:: 	\iiint_{E}^{V} \, dx\,dy\,dz
+
+.. math::  	\lim_{n \to \infty}x_n
+
+.. math::  \sum_{k=1}^N k^2
+
+.. math::  	\binom{n}{k} oppure {n \choose k}
+
+.. math::   \begin{bmatrix} 0 & \cdots & 0 \\ \vdots &
+		    \ddots & \vdots \\ 0 & \cdots &
+		    0\end{bmatrix}
+		
+.. math::   	f(n)=\begin{cases} n/2, & \mbox{se }n\mbox{ pari} \\ 3n+1, & \mbox{se }n\mbox{ dispari}
+		        \end{cases}
