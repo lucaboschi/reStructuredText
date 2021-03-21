@@ -3,7 +3,25 @@
 Paragrafo
 =========
 
+Creazione di un paragrafo
+-------------------------
+
 I paragrafi sono costituiti da blocchi di testo allineato a sinistra senza markup 
 che indichi qualsiasi altro elemento del corpo. 
 
 Le righe vuote separano i paragrafi l'uno dall'altro e dagli altri elementi del corpo. 
+
+
+Elementi
+--------
+
+All'interno di un paragrafo possiamo trovare del testo formattato in diversi modi:
+
+
+*corsivo* : è il testo contenuto tra due asterischi
+
+**grassetto**  :è il testo contenuto tra due doppi asterischi
+
+`interpreted text`
+
+``inline literals``
